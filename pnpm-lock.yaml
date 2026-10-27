@@ -4707,9 +4707,6 @@ importers:
       '@alchemy.run/gcp':
         specifier: workspace:*
         version: link:../../packages/gcp
-      '@alchemy.run/sql':
-        specifier: workspace:*
-        version: link:../../packages/sql
       '@distilled.cloud/gcp':
         specifier: workspace:*
         version: link:../../submodules/distilled/packages/gcp
@@ -9476,6 +9473,9 @@ importers:
       '@alchemy.run/redis':
         specifier: workspace:*
         version: link:../redis
+      '@alchemy.run/sql':
+        specifier: workspace:*
+        version: link:../sql
       '@distilled.cloud/core':
         specifier: workspace:*
         version: link:../../submodules/distilled/packages/core
